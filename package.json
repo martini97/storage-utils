@@ -60,5 +60,8 @@
   },
   "bugs": {
     "url": "https://github.com/martini97/storage-utils/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
