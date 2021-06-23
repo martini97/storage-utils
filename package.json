@@ -9,10 +9,17 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
     "cz-conventional-changelog": "3.3.0",
+    "eslint": "^7.29.0",
+    "eslint-config-xo": "^0.37.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
-    "typescript": "^4.3.4",
-    "semantic-release": "^17.4.4"
+    "lint-staged": "^11.0.0",
+    "prettier": "2.3.1",
+    "semantic-release": "^17.4.4",
+    "typescript": "^4.3.4"
   },
   "files": [
     "dist/**"
@@ -20,6 +27,7 @@
   "scripts": {
     "cm": "cz",
     "build": "rm -rf ./dist && tsc",
+    "lint": "eslint --ext 'js,jsx,ts,tsx' .",
     "semantic-release": "semantic-release"
   },
   "config": {
