@@ -7,6 +7,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "resolveJsonModule": true,
+    "moduleResolution": "node",
     "downlevelIteration": true,
     "target": "es2015"
   },
