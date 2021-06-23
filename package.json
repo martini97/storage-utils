@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "author": "Alessandro Martini <github.com/martini97>",
   "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/martini97/storage-utils",
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
@@ -50,5 +51,10 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
