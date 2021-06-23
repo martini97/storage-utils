@@ -7,6 +7,7 @@
   "author": "Alessandro Martini <github.com/martini97>",
   "license": "GPL-3.0-or-later",
   "homepage": "https://github.com/martini97/storage-utils",
+  "private": false,
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
